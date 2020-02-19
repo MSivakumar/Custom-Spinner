@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <declare-styleable name="CustomSpinner" tools:ignore="ResourceName">
+    <attr format="color" name="cs_arrow_tint"/>
+    <attr format="boolean" name="cs_hide_arrow"/>
+    <attr format="color" name="cs_background_color"/>
+    <attr format="color" name="cs_text_color"/>
+    <attr format="dimension" name="cs_dropdown_max_height"/>
+    <attr format="dimension" name="cs_dropdown_height">
+      <enum name="fill_parent" value="-1"/>
+      <enum name="match_parent" value="-1"/>
+      <enum name="wrap_content" value="-2"/>
+    </attr>
+    <attr format="integer" name="cs_background_selector"/>
+    <attr format="dimension" name="cs_padding_top"/>
+    <attr format="dimension" name="cs_padding_left"/>
+    <attr format="dimension" name="cs_padding_bottom"/>
+    <attr format="dimension" name="cs_padding_right"/>
+    <attr format="dimension" name="cs_popup_padding_top"/>
+    <attr format="dimension" name="cs_popup_padding_left"/>
+    <attr format="dimension" name="cs_popup_padding_bottom"/>
+    <attr format="dimension" name="cs_popup_padding_right"/>
+    <attr format="string" name="cs_hint"/>
+    <attr format="color" name="cs_hint_color"/>
+  </declare-styleable>
+</resources>
